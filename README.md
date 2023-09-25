@@ -60,4 +60,4 @@ paths:
 ```
 
 
-![](https://github.com/openaiplugin-triage/triageplugin.gif)
+![](https://github.com/arieschwartzman/openaiplugin-triage/blob/main/triageplugin.gif)
