@@ -16,7 +16,7 @@ let questions = [
   "how old are you?",
   "what's your gender?",
   "what is the pain level from 1-10",
-  "was it an enjury?",
+  "was it an injury?",
   "what is the location of the pain?"
 ];
 

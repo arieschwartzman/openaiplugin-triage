@@ -58,6 +58,6 @@ paths:
                     type: string
                     example: "what ever the bot says"
 ```
-![](https://github.com/openaiplugin-triage/triage plugin.gif)
 
 
+![](https://github.com/openaiplugin-triage/triageplugin.gif)
