@@ -4,7 +4,7 @@ This plugin demonstrates the ability of **OpenAI GPT** plugin to serve as multi-
 
 Here are a list of suggested questions in sequence that are asked by the plugin after the initial intent is detected.
 
-```json
+```javascript
 let questions = [
   "how old are you?",
   "what's your gender?",
