@@ -1,0 +1,38 @@
+openapi: 3.0.1
+info:
+  title: Medical Triage Bot
+  description: medical triage bot. can get symptoms and ask questions to narrow the diagnosis. Can also accept answwers such as 'yes' or 'no' to narrow the diagnosis..
+  version: 'v1'
+servers:
+  - url: https://openaiplugin.ngrok.app
+paths:
+  /triage/:
+    post:
+      operationId: diagnose
+      summary: Get the next question from the user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                inputString:
+                  type: string                  
+
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nextQuestion:
+                    type: string
+                    example: "what ever the bot says"
+                  diagnosis:
+                    type: string
+                    example: "what ever the bot says"
+
+

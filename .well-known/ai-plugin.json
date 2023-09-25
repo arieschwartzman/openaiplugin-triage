@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Medical Triage Bot",
+    "name_for_model": "MedicalTriageBot",
+    "description_for_human": "Medical Triage Bot",
+    "description_for_model": "medical triage bot. can get symptoms and ask questions to narrow the diagnosis. Can also accept answwers such as 'yes' or 'no' to narrow the diagnosis.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://openaiplugin.ngrok.app/openapi.yaml"
+    },
+    "logo_url": "https://openaiplugin.ngrok.app/logo.png",
+    "contact_email": "legal@example.com",
+    "legal_info_url": "http://example.com/legal"
+  }
+  
